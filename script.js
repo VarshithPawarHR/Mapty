@@ -105,10 +105,11 @@ function renderWorkout(workout) {
   form.insertAdjacentHTML('afterend', html);
 }
 
+//store locally
 function saveWorkouts() {
   localStorage.setItem('workouts', JSON.stringify(workouts));
 }
-
+//load from locally
 function loadWorkouts() {
   const data = JSON.parse(localStorage.getItem('workouts'));
   if (!data) return;
