@@ -1,4 +1,3 @@
-Certainly! Below is a sample README file for your "Mapty" project.
 
 ---
 
